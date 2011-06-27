@@ -1,0 +1,12 @@
+# Model View Controller
+
+A simple example to the valuable concept of MVC with little code for a quicker understanding.
+
+Using MVC, it's quite easy to implement additional features later on or even switch the frontend completely, such as another GUI-framework, or use the same code base for a command line application instead.
+
+I will try to keep the example short and simple, although the equipped language tries to nullify these ambitions ;) 
+
+MVC is a great pattern. It's easy to learn and applicable for coding (traditional applications, web apps, games, [...]), administration, engineering in general (both digital and real), etc.
+
+Have fun
+^__^
