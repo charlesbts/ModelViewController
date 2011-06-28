@@ -1,22 +1,18 @@
 
 public class Model {
 
-	private String message;
+	private String name;
 
-	public Model(String message) {
-		this.message = message;
+	public String getName() {
+		return name;
 	}
 
-	public String getMessage() {
-		return message;
-	}
-
-	public void setMessage(String message) {
-		this.message = message;
+	public void setName(String name) {
+		this.name = name;
 	}
 	
-	public String greet(String name) {
-		return "Hello " + name + ", " + getMessage();
+	public String getGreeting() {
+		return "Hello, " + getName() + "!";
 	}
 	
 }
