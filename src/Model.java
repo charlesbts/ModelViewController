@@ -1,17 +1,22 @@
 
-public class Model {
 
+public class Model 
+{
 	private String name;
 
-	public String getName() {
+	public String getName() 
+	{
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setName(String name) 
+	{
 		this.name = name;
 	}
 	
-	public String getGreeting() {
+	
+	public String getGreeting() 
+	{
 		return "Hello, " + getName() + "!";
 	}
 	

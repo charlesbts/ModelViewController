@@ -1,3 +1,4 @@
+import javax.swing.AbstractButton;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -5,14 +6,16 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 
 
-public class View extends JFrame {
+public class View extends JFrame 
+{
 
 	private static final long serialVersionUID = 1L;
 	private JLabel label;
 	private JButton button;
 	private JTextField textfield;
 	
-	public View(String title) {
+	public View(String title) 
+	{
 		super(title);
 		
 		textfield = new JTextField("insert name");
@@ -34,7 +37,8 @@ public class View extends JFrame {
 		
 	}
 	
-	public void setText(String newText) {
+	public void setText(String newText) 
+	{
 		this.label.setText(newText);
 	}
 	
@@ -52,10 +56,9 @@ public class View extends JFrame {
 	{
 		this.textfield.requestFocus();
 	}
-
 	
-	
-	public JButton getButton() {
+	public AbstractButton getButton() 
+	{
 		return button;
 	}
 	
